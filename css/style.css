@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-preta: #161716;
+  --cor-branca: #fffafa;
+  --cor-principal: #ca111c;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--cor-branca);
+  background-color: var(--cor-preta);
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+  padding-top: 0.2rem;
+}
+
+.nav-header ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-header ul a {
+  text-decoration: none;
+  color: var(--cor-branca);
+  font-weight: 500;
+  font-size: 1.1;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-header ul a:hover {
+  color: var(--cor-principal);
+}
+
+span {
+  color: var(--cor-principal);
+}
+
+.logo-header {
+  width: 100px;
+}
+
+.hero {
+  background-image: url(../assets/death-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute; /* Alterado de 'relative' para 'absolute' */
+  top: 0; /* Ajusta conforme necessário */
+  left: 0;
+  z-index: 1;
+}
+
+.hero::after {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 3;
+}
+
+h1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--cor-branca);
+  z-index: 4;
+  text-align: center;
+  width: 50%;
+  font-size: 3rem;
+  opacity: 0;
+  animation: 5s forwards opacityHeader;
+}
+
+.main {
+  padding-top: 100vh;
+}
+
+#about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#about img {
+  width: 500px;
+  border-radius: 0.5rem;
+}
+
+.about-container {
+  width: 40%;
+  text-align: justify;
+}
+
+.about-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--cor-branca);
+}
+
+/* MEMBERS */
+
+#members {
+  margin: 5rem 2rem;
+}
+
+#members h2 {
+  font-size: 2rem;
+  color: var(--cor-principal);
+  text-align: center;
+}
+
+.members-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.members-card {
+  margin-top: 3rem;
+  width: 20%;
+  height: 20rem;
+  background-color: var(--cor-branca);
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.members-card:hover {
+  transform: scale(1.03);
+  filter: ();
+}
+
+.members-cards-container > :nth-child(1) {
+  background-image: url(../assets/chuck-schuldiner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.members-cards-container > :nth-child(2) {
+  background-image: url(../assets/shannon-hamm.jpg);
+  background-size: cover;
+  background-position: center left;
+}
+
+.members-cards-container > :nth-child(3) {
+  background-image: url(../assets/scott-clendenin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.members-cards-container > :nth-child(4) {
+  background-image: url(../assets/richard-christy.jpg);
+  background-size: cover;
+  background-position: center left;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 2rem;
+  background-color: var(--cor-principal);
+  color: var(--cor-branca);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: yellow;
+}
+
+/* RESPONSIVE AND KEYFRAMES*/
+
+@keyframes opacityHeader {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
