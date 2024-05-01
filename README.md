@@ -1,4 +1,4 @@
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2F%3Ftitle%3DFile%3ADeath_band.png%26redirect%3Dno&psig=AOvVaw1zWEmqiGUR2qkCuEDHDJkc&ust=1714617969220000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDq2um364UDFQAAAAAdAAAAABAE" style="width: 300px">
+<img src="https://www.metal-archives.com/images/1/4/1/141_logo.png?3006" style="width: 300px; text-align: center;">
 
 # Desafio Kick - Media Queries
 
