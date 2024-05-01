@@ -18,7 +18,7 @@ O tema que utilizei foi da banda "Death", uma banda de Heavy Metal que sou muito
 
 Acesse o link para ver o projeto no ar:
 
-[Deploy](https://mediaportal.scania.com/group/en/home.html)
+[Deploy](https://poncianodev.github.io/desafio-13-14-kick/)
 
 ## Autor
 
