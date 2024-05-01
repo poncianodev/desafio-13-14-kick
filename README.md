@@ -1,3 +1,5 @@
+<img src="https://e7.pngegg.com/pngimages/760/114/png-clipart-death-metal-heavy-metal-scream-bloody-gore-sepultura-metal-band-text-logo.png" style="width: 300px">
+
 # Desafio Kick - Media Queries
 
 Neste desafio foi proposto o desenvolvimento de um site utilizando divs, onde o objetivo foi deixar ele totalmente responsivo.
