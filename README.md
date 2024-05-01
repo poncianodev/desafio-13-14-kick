@@ -1,2 +1,23 @@
-# desafio-13-14-kick
-Desafio das paradas 13 e 14 da Jornada de tecnologia da Kick.
+# Desafio Kick - Media Queries
+
+Neste desafio foi proposto o desenvolvimento de um site utilizando divs, onde o objetivo foi deixar ele totalmente responsivo.
+
+## Tema
+
+O tema que utilizei foi da banda "Death", uma banda de Heavy Metal que sou muito fã.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- Ionicons (Ícones)
+
+## Deploy
+
+Acesse o link para ver o projeto no ar:
+
+[Deploy](https://mediaportal.scania.com/group/en/home.html)
+
+## Autor
+
+Este projeto foi desenvolvido por [poncianodev](https://www.linkedin.com/in/lucas-ponciano/)
